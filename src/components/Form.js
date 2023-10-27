@@ -9,6 +9,7 @@ function Form() {
 
     const onSubmit = (data) => {
         console.log(data);
+        alert('Your form is submitted successfully');
     }
 
     const nextPage = () => {
